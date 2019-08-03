@@ -6,7 +6,7 @@
 //  Copyright © 2019 Myron. All rights reserved.
 //
 
-//MARK: - LIFO(last in first out) 
+//MARK: - LIFO(last in first out) 用数组来存储栈中的元素
 struct Stack<Element> {
     private var elements: [Element] = []
     init() { }
