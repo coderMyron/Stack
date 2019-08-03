@@ -12,7 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        var stack = Stack<Int>()
+        stack.push(1)
+        stack.push(2)
+        stack.push(3)
+        stack.push(4)
+        stack.push(5)
+        
+        print(stack)
+        
+        if let pop = stack.pop() {
+            print("pop:\(pop)")
+        }
+        
+        print(stack)
     }
 
 
