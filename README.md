@@ -5,7 +5,7 @@
 1.push：在栈顶上添加元素  
 2.pop：把栈顶的元素移除  
 栈是LIFO(last in first out) 的数据结构。就是后面进来的元素先出去；最先进去的最后出去。  
-push的元素直接添加到数组后面，pop把数组最后的元素移除。push 和 pop 操作的时间复杂度都是O(1)。  
+用数组来存储栈中的元素，push的元素直接添加到数组后面，pop把数组最后的元素移除。push 和 pop 操作的时间复杂度都是O(1)。  
 
 var stack = Stack<Int>()  
 stack.push(1)  
